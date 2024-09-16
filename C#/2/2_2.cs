@@ -1,11 +1,11 @@
-// Check if the user is over 18
+// Check if the user age is over 18
 if (user.Age > 18)
 {
-    // User is over 18, grant access
+    // User is over age 18,so grant access
     GrantAccess();
 }
 else
 {
-    // User is under 18, deny access
+    // User is under age 18,so deny access
     DenyAccess();
 }
