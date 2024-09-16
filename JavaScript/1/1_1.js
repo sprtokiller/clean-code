@@ -6,5 +6,5 @@ function Calculate(a, b) {
 
 let firstNumber = 3;
 let secondNumber = 4;
-let vysledek = c(firstNumber, secondNumber);
+let result = c(firstNumber, secondNumber);
 console.log("Computed value: " + result);
