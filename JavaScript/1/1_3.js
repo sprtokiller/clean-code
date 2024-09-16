@@ -1,13 +1,13 @@
-class P {
-  constructor(n, a) {
-      this.n = n;
-      this.a = a;
+class Age {
+  constructor(name, age) {
+      this.name = name;
+      this.age = age;
   }
 
-  d() {
-      console.log(this.n + " is " + this.a + " years old.");
+  PersonAge() {
+      console.log(this.name + " is " + this.age + " years old.");
   }
 }
 
-let p = new P("Alice", 30);
-p.d();
+let age = new Age("Alice", 30);
+p.PersonAge();
