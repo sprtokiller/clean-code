@@ -1,7 +1,7 @@
 let arr = [5, 10, 15, 20, 25];
-function p(a) {
-    for (let i = 0; i < a.length; i++) {
-        console.log("Value at index " + i + ": " + a[i]);
+function FindValue(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log("Value at index " + i + ": " + arr[i]);
     }
 }
-p(arr);
+FindValue(arr);
