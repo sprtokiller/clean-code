@@ -1,4 +1,3 @@
-// Set the background color to green
+//Utility for setings color background
 this.BackColor = Color.Green;
-// Display the success message
 statusLabel.Text = "Operation successful.";
