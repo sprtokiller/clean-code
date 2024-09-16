@@ -1,8 +1,14 @@
-function s(r) {
-  let a = 3.14 * r * r;
-  let c = 2 * 3.14 * r;
-  console.log("Area: " + a);
-  console.log("Circumference: " + c);
+function CalculateCircleArea(radius) {
+  return 3.14 * radius * radius;
 }
 
-s(5);
+function CalculateCircleCircumference(radius) {
+  return 2 * 3.14 * radius;
+}
+
+let testCircle = {radius: 5, area: undefined, circumference: undefined}
+circle.circumference = CalculateCircleCircumference(circle.radius);
+circle.area = CalculateCircleArea(circle.radius);
+
+console.log(`Calculated circle area: ${circle.area}`);
+console.log(`Calculated circle area: ${circle.circumference}`);
