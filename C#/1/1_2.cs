@@ -4,11 +4,11 @@ class Program
 {
     static void Main()
     {
-        int[] arr = { 5, 10, 15, 20, 25 };
-        p(arr);
+        int[] arrNumber = { 5, 10, 15, 20, 25 };
+        printed(arrNumber);
     }
 
-    static void p(int[] a)
+    static void printed(int[] a)
     {
         for (int i = 0; i < a.Length; i++)
         {
