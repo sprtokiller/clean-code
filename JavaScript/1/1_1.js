@@ -7,4 +7,4 @@ function c(a, b) {
 let x = 3;
 let y = 4;
 let r = c(x, y);
-console.log("Computed value: " + r);
+console.log("Computed value: :)" + r);
