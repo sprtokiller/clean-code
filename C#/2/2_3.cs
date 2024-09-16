@@ -1,8 +1,8 @@
-// Loop through the array of numbers
+/*
+This function is created for going through the array's each number to display its contents
+*/
 for (int i = 0; i < numbers.Length; i++)
 {
-    // Get the current number
     int num = numbers[i];
-    // Print the number
     Console.WriteLine("Number: " + num);
 }
