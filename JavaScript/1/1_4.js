@@ -1,8 +1,8 @@
-function s(r) {
-  let a = 3.14 * r * r;
-  let c = 2 * 3.14 * r;
-  console.log("Area: " + a);
-  console.log("Circumference: " + c);
+function sphere(radius) {
+  let area = 3.14 * radius * radius;
+  let capacity = 2 * 3.14 * radius;
+  console.log("Area: " + area);
+  console.log("Circumference: " + capacity);
 }
 
-s(5);
+sphere(5);
