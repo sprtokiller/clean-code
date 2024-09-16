@@ -1,8 +1,8 @@
-// Check if the user is over 18
+//I'm checking if the user if over 18 because the site/program is only for adults
 if (user.age > 18) {
-  // User is over 18, grant access
+  // if the user is over 18, the if/else statement will grant him access
   grantAccess();
 } else {
-  // User is under 18, deny access
+  // if the user is under 18, access will be denied
   denyAccess();
 }

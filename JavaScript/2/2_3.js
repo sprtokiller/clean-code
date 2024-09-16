@@ -1,7 +1,7 @@
-// Loop through the array of numbers
+// this for loop will go throught all the numbers and print them to console
 for (let i = 0; i < numbers.length; i++) {
-  // Get the current number
+  // I'm saving current nuber to be printed in console
   let num = numbers[i];
-  // Print the number
+  // I printed the number to console to clearly see the result
   console.log("Number: " + num);
 }
