@@ -4,15 +4,14 @@ class Program
 {
     static void Main()
     {
-        // This function multiplies two numbers
+        // calculating number of prpduct
         int product = Multiply(4, 5);
         Console.WriteLine("Product is: " + product);
     }
 
-    // This function multiplies two numbers
+    // function for calculating the nubmer of product
     static int Multiply(int a, int b)
     {
-        // Multiply a and b
         return a * b;
     }
 }
