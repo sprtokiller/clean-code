@@ -1,7 +1,8 @@
-// Loop through the array of numbers
+// Loop through each element in the 'numbers' array
 for (let i = 0; i < numbers.length; i++) {
-  // Get the current number
-  let num = numbers[i];
-  // Print the number
-  console.log("Number: " + num);
+  // Retrieve the current number from the array at index 'i'
+  let currentNumber = numbers[i];
+  // Output the current number to the console
+  // This helps in verifying or debugging the content of the array
+  console.log("Number: " + currentNumber);
 }

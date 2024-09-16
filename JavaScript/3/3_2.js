@@ -1,5 +1,7 @@
-let finalPrice = basePrice * 0.95; // Apply 5% discount
+const REGULAR_DISCOUNT_RATE = 0.95; // 5% discount for non-members
+const MEMBER_DISCOUNT_RATE = 0.90;  // 10% discount for members
+let finalPrice = basePrice * REGULAR_DISCOUNT_RATE; 
 if (isMember) {
-    finalPrice = basePrice * 0.90; // Members get 10% discount
+    finalPrice = basePrice * MEMBER_DISCOUNT_RATE; 
 }
 console.log("Final price: $" + finalPrice);

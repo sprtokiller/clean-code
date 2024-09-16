@@ -1,1 +1,2 @@
-setTimeout(showNotification, 2500); // Show notification after 2.5 seconds
+const NOTIFICATION_DELAY_MS = 2500;
+setTimeout(showNotification, NOTIFICATION_DELAY_MS);
