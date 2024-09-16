@@ -13,12 +13,16 @@ void SendEmail(string to, string subject, string body)
     LogEmail(email);
 }
 
+//Email upon Login
 Email welcomeEmail = new Email();
 SendEmail("newuser@example.com", "Welcome!", "Thank you for joining.");
 welcomeEmail.IsWelcomeEmail = true;
+
 LogEmail(welcomeEmail);
 
+//Email for resetting password
 Email passwordResetEmail = new Email();
 SendEmail("user@example.com", "Reset Password", "Click here to reset your password.");
 passwordResetEmail.IsPasswordReset = true;
+
 LogEmail(passwordResetEmail);

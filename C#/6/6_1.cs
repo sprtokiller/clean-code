@@ -1,14 +1,8 @@
-Console.WriteLine("Name: " + user.FirstName + " " + user.LastName);
-Console.WriteLine("Email: " + user.Email);
-Console.WriteLine("Role: " + user.Role);
-
-Console.WriteLine("Name: " + user.FirstName + " " + user.LastName);
-Console.WriteLine("Email: " + user.Email);
-Console.WriteLine("Role: " + user.Role);
-
+new function print() {
+    Console.WriteLine("Name: " + user.FirstName + " " + user.LastName\n"Email: " + user.Email\n"Role: " + user.Role);
+}
 if (user.IsActive)
 {
-    Console.WriteLine("Name: " + user.FirstName + " " + user.LastName);
-    Console.WriteLine("Email: " + user.Email);
+    print();
     Console.WriteLine("Status: Active");
 }
