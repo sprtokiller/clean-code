@@ -6,5 +6,5 @@ void AddScore(int points)
     Console.WriteLine("Total score is now: " + totalScore);
 }
 
+AddScore(5);
 AddScore(10);
-AddScore(20);

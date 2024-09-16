@@ -1,6 +1,6 @@
-double finalPrice = basePrice * 0.95; // Apply 5% discount
+double finalPrice = basePrice * 0.95; 
 if (isMember)
 {
-    finalPrice = basePrice * 0.90; // Members get 10% discount
+    finalPrice = basePrice * 0.90; 
 }
 Console.WriteLine("Final price: $" + finalPrice);

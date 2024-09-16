@@ -1,7 +1,7 @@
 Dictionary<string, int> settings = new Dictionary<string, int>
 {
-    { "volume", 70 },
-    { "brightness", 50 }
+    { "volume", 60 },
+    { "brightness", 40 }
 };
 
 void AdjustBrightness(int level)

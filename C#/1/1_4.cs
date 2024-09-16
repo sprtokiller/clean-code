@@ -4,10 +4,10 @@ class Program
 {
     static void Main()
     {
-        s(5);
+        cirkle(5);
     }
 
-    static void s(double r)
+    static void cirkle(double r)
     {
         double a = 3.14 * r * r;
         double c = 2 * 3.14 * r;

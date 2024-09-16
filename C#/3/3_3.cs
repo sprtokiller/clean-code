@@ -1,2 +1,2 @@
-System.Threading.Thread.Sleep(2500); // Pause for 2.5 seconds
+System.Threading.Thread.Sleep(2500); 
 ShowNotification();
