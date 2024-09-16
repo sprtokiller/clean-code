@@ -1,5 +1,6 @@
 void AnalyzeData(List<int> data)
 {
+    //Run and analyze
     if (data != null && data.Count > 0)
     {
         int total = 0;

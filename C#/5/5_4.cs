@@ -1,24 +1,26 @@
 void NavigateMaze(Cell[,,] maze)
 {
-    for (int x = 0; x < maze.GetLength(0); x++)
+    //Set Coordinates
+    for (int coordinateX = 0; coordinateX < maze.GetLength(0); coordinateX++)
     {
-        for (int y = 0; y < maze.GetLength(1); y++)
+        for (int coordinateY = 0; coordinateY < maze.GetLength(1); coordinateY++)
         {
-            for (int z = 0; z < maze.GetLength(2); z++)
+            for (int coordinateZ = 0; coordinateZ < maze.GetLength(2); coordinateZ++)
             {
-                Cell cell = maze[x, y, z];
+                //Run the maze
+                Cell cell = maze[coordinateX, coordinateY, coordinateZ];
                 if (cell.IsWall)
                 {
-                    Console.WriteLine("Encountered wall at (" + x + ", " + y + ", " + z + ").");
+                    Console.WriteLine("Encountered wall at (" + coordinateX + ", " + coordinateY + ", " + coordinateZ + ").");
                 }
                 else if (cell.IsExit)
                 {
-                    Console.WriteLine("Exit found at (" + x + ", " + y + ", " + z + ").");
+                    Console.WriteLine("Exit found at (" + coordinateX + ", " + coordinateY + ", " + coordinateZ + ").");
                     return;
                 }
                 else
                 {
-                    Console.WriteLine("Moving through (" + x + ", " + y + ", " + z + ").");
+                    Console.WriteLine("Moving through (" + coordinateX + ", " + coordinateY + ", " + coordinateZ + ").");
                 }
             }
         }
