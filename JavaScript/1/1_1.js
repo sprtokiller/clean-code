@@ -1,10 +1,10 @@
-function c(a, b) {
-  let d = Math.sqrt(a * a + b * b);
-  console.log("The result is: " + d);
-  return d;
+function solveSquare(a, b) {
+  let problem = Math.sqrt(a * a + b * b);
+  console.log("The result is: " + problem);
+  return problem;
 }
 
-let x = 3;
-let y = 4;
-let r = c(x, y);
-console.log("Computed value: " + r);
+let number1 = 3;
+let number2 = 4;
+let solution = c(x, y);
+console.log("Computed value: " + solveSquare);
