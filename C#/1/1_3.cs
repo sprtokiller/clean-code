@@ -1,27 +1,30 @@
 using System;
 
-class P
+class Person
 {
-    private string n;
-    private int a;
+    //inicializace
+    private string number;
+    private int age;
 
-    public P(string n, int a)
+    //vytvareni osob
+    public Person(string number, int age)
     {
-        this.n = n;
-        this.a = a;
+        this.number = number;
+        this.age = age;
     }
-
-    public void d()
+    //vypis
+    public void debug()
     {
-        Console.WriteLine(this.n + " is " + this.a + " years old.");
+        Console.WriteLine(this.number + " is " + this.age + " years old.");
     }
 }
 
 class Program
 {
+    //zapsani osoby
     static void Main()
     {
-        P p = new P("Alice", 30);
-        p.d();
+        Person person = new Person("Alice", 30);
+        person.debug();
     }
 }

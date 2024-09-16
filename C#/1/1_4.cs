@@ -4,14 +4,15 @@ class Program
 {
     static void Main()
     {
-        s(5);
+        calculate(5);
     }
 
-    static void s(double r)
+
+    static void calculate(double r)
     {
-        double a = 3.14 * r * r;
-        double c = 2 * 3.14 * r;
-        Console.WriteLine("Area: " + a);
-        Console.WriteLine("Circumference: " + c);
+        double area = 3.14 * r * r;
+        double circumference = 2 * 3.14 * r;
+        Console.WriteLine("Area: " + area);
+        Console.WriteLine("Circumference: " + circumference);
     }
 }

@@ -4,15 +4,15 @@ class Program
 {
     static void Main()
     {
-        int[] arr = { 5, 10, 15, 20, 25 };
-        p(arr);
+        int[] array1 = { 5, 10, 15, 20, 25 };
+        program1(array1);
     }
 
-    static void p(int[] a)
+    static void program1(int[] )
     {
-        for (int i = 0; i < a.Length; i++)
+        for (int i = 0; i < value.Length; i++)
         {
-            Console.WriteLine("Value at index " + i + ": " + a[i]);
+            Console.WriteLine("Value at index " + i + ": " + value[i]);
         }
     }
 }
