@@ -1,10 +1,10 @@
-function c(a, b) {
-  let d = Math.sqrt(a * a + b * b);
-  console.log("The result is: " + d);
-  return d;
+function Calculate(a, b) {
+  let result = Math.sqrt(a * a + b * b);
+  console.log("The result is: " + result);
+  return result;
 }
 
-let x = 3;
-let y = 4;
-let r = c(x, y);
-console.log("Computed value: " + r);
+let firstNumber = 3;
+let secondNumber = 4;
+let vysledek = c(firstNumber, secondNumber);
+console.log("Computed value: " + result);

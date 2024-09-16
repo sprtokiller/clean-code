@@ -1,5 +1,7 @@
+let eligible = "Eligible for long-term service award."
+let notEligible = "Not eligible for award."
 if (employee.yearsOfService > 10) {
-  console.log("Eligible for long-term service award.");
+  console.log(eligible);
 } else {
-  console.log("Not eligible for award.");
+  console.log(notEligible);
 }
