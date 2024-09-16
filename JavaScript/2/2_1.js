@@ -1,9 +1,14 @@
-// This function multiplies two numbers
+/** 
+ * File 2_1.js
+ * @author Leona Černá
+ * @email leona.cerna@student.sps-cl.cz
+ *
+ *Utility funkce pro násobení 2 čísel a výpis
+ */
+
 function multiply(a, b) {
-  // Multiply a and b
   return a * b;
 }
 
-// Call the multiply function with 4 and 5
 let product = multiply(4, 5);
 console.log("Product is: " + product);

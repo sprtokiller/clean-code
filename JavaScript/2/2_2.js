@@ -1,8 +1,15 @@
-// Check if the user is over 18
+/** 
+ * File 2_2.js
+ * @author Leona Černá
+ * @email leona.cerna@student.sps-cl.cz
+ *
+ *Utility funkce pro násobení 2 čísel a výpis
+ */
+//Check if the users age is over 18
 if (user.age > 18) {
-  // User is over 18, grant access
+  //Grand access to users over 18
   grantAccess();
 } else {
-  // User is under 18, deny access
+  //Deny access to users under 18
   denyAccess();
 }
