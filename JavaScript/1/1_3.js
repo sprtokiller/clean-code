@@ -10,4 +10,4 @@ class persons {
 }
 
 let Person = new Person("Alice", 30);
-Osoba.vypisJmenoAVek();
+Osoba.extractNameAndAge();

@@ -6,7 +6,7 @@ let userSession = {
 function logout() {
   userSession.isLoggedIn = false;
   userSession.token = null;
-  console.log("User logged out.");
 }
+console.log("User logged out.");
 
 logout();

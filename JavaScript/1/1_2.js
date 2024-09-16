@@ -4,4 +4,4 @@ function indexing(a) {
         console.log("Value at index " + i + ": " + a[i]);
     }
 }
-indexing(pole);
+indexing(array);
