@@ -1,7 +1,7 @@
 if(product.InStock){
 Console.WriteLine("Product is available.");
-}else{
+} else {
 Console.WriteLine("Product is out of stock.");}
-
+//Add
 void AddToCart(){
 cart.Add(product);Console.WriteLine("Product added to cart.");}
