@@ -1,7 +1,8 @@
-// Loop through the array of numbers
+// The code loops through each element in the numbers array and prints each number to the console with a prefix "Number:"
+
 for (let i = 0; i < numbers.length; i++) {
-  // Get the current number
+
   let num = numbers[i];
-  // Print the number
+
   console.log("Number: " + num);
 }
