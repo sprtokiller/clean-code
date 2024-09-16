@@ -1,3 +1,4 @@
+//Initiate for the Session
 class UserSession
 {
     public bool IsLoggedIn { get; set; } = true;
@@ -6,6 +7,7 @@ class UserSession
 
 UserSession userSession = new UserSession();
 
+//Reset and logout
 void Logout()
 {
     userSession.IsLoggedIn = false;
