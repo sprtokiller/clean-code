@@ -4,14 +4,14 @@ class Program
 {
     static void Main()
     {
-        s(5);
+        CalculateCircle(5);
     }
 
-    static void s(double r)
+    static void CalculateCircle(double radius)
     {
-        double a = 3.14 * r * r;
-        double c = 2 * 3.14 * r;
-        Console.WriteLine("Area: " + a);
-        Console.WriteLine("Circumference: " + c);
+        double area = 3.14 * radius * radius;
+        double circumference = 2 * 3.14 * radius;
+        Console.WriteLine("Area: " + area);
+        Console.WriteLine("Circumference: " + circumference);
     }
 }

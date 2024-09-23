@@ -1,8 +1,1 @@
-if (employee.YearsOfService > 10)
-{
-    Console.WriteLine("Eligible for long-term service award.");
-}
-else
-{
-    Console.WriteLine("Not eligible for award.");
-}
+Console.WriteLine(employee.YearsOfService > 10 ? "Eligible for long-term service award." : "Not eligible for award."); //check if employee is suitable for long-term service award

@@ -4,16 +4,16 @@ class Program
 {
     static void Main()
     {
-        double x = 3;
-        double y = 4;
-        double r = c(x, y);
-        Console.WriteLine("Computed value: " + r);
+        double sideA = 3;
+        double sideB = 4;
+        double hypotenuse = CalculateHypotenuse(sideA, sideB);
+        Console.WriteLine("Computed value: " + hypotenuse);
     }
 
-    static double c(double a, double b)
+    static double CalculateHypotenuse(double sideA, double sideB)
     {
-        double d = Math.Sqrt(a * a + b * b);
-        Console.WriteLine("The result is: " + d);
-        return d;
+        double hypotenuse = Math.Sqrt(sideA * sideA + sideB * sideB);
+        Console.WriteLine("The result is: " + hypotenuse);
+        return hypotenuse;
     }
 }

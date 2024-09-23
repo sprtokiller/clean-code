@@ -3,10 +3,15 @@ Dictionary<string, int> inventory = new Dictionary<string, int>
     { "Widget", 10 }
 };
 
-void UpdateInventory(string product, int quantity)
+Dictionary<string, int> UpdateInventory(Dictionary<string, int> currentInventory, string product, int quantity)
 {
-    inventory[product] -= quantity;
-    Console.WriteLine(quantity + " units of " + product + " sold.");
+    var newInventory = new Dictionary<string, int>(currentInventory);
+    if (newInventory.ContainsKey(product))
+    {
+        newInventory[product] -= quantity;
+        Console.WriteLine(quantity + " units of " + product + " sold.");
+    }
+    return newInventory;
 }
 
-UpdateInventory("Widget", 5);
+inventory = UpdateInventory(inventory, "Widget", 5);
