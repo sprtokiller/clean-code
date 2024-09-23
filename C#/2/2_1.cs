@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        // This function multiplies two numbers
+        
         int product = Multiply(4, 5);
         Console.WriteLine("Product is: " + product);
     }

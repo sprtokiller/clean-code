@@ -1,27 +1,33 @@
 void NavigateMaze(Cell[,,] maze)
 {
-    for (int x = 0; x < maze.GetLength(0); x++)
+    int lengthX = maze.GetLength(0);
+    int lengthY = maze.GetLength(1);
+    int lengthZ = maze.GetLength(2);
+
+    for (int x = 0; x < lengthX; x++)
     {
-        for (int y = 0; y < maze.GetLength(1); y++)
+        for (int y = 0; y < lengthY; y++)
         {
-            for (int z = 0; z < maze.GetLength(2); z++)
+            for (int z = 0; z < lengthZ; z++)
             {
                 Cell cell = maze[x, y, z];
+
                 if (cell.IsWall)
                 {
-                    Console.WriteLine("Encountered wall at (" + x + ", " + y + ", " + z + ").");
+                    Console.WriteLine($"Encountered wall at ({x}, {y}, {z}).");
+                    continue;
                 }
-                else if (cell.IsExit)
+
+                if (cell.IsExit)
                 {
-                    Console.WriteLine("Exit found at (" + x + ", " + y + ", " + z + ").");
+                    Console.WriteLine($"Exit found at ({x}, {y}, {z}).");
                     return;
                 }
-                else
-                {
-                    Console.WriteLine("Moving through (" + x + ", " + y + ", " + z + ").");
-                }
+
+                Console.WriteLine($"Moving through ({x}, {y}, {z}).");
             }
         }
     }
+
     Console.WriteLine("No exit found in the maze.");
 }
