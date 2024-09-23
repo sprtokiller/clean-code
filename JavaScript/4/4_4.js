@@ -1,6 +1,9 @@
 function updateInventory(product, quantity) {
   inventory[product] -= quantity;
-  console.log(quantity + " units of " + product + " sold.");
+}
+function printInventory(product) {
+  console.log(inventory[product] + " units of " + product + " sold.");
 }
 
 updateInventory("Widget", 5);
+printInventory("Widget");
