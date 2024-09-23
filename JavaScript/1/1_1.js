@@ -1,10 +1,10 @@
-function c(a, b) {
-  let d = Math.sqrt(a * a + b * b);
-  console.log("The result is: " + d);
-  return d;
+function CalcCircumference(num1, num2) {
+  let result = Math.sqrt(num1 * num1 + num2 * num2);
+  console.log("The result is: " + result);
+  return result;
 }
 
 let x = 3;
 let y = 4;
-let r = c(x, y);
+let r = CalcCircumference(x, y);
 console.log("Computed value: " + r);
