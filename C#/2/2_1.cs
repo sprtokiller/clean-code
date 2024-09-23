@@ -1,18 +1,26 @@
 using System;
 
+
+
 class Program
 {
+    /* 
+     * File 2_1.cs
+     * @author 
+     *
+     *
+     *Utility function for  multiplication and printed
+     */
     static void Main()
     {
-        // This function multiplies two numbers
+
         int product = Multiply(4, 5);
         Console.WriteLine("Product is: " + product);
     }
 
-    // This function multiplies two numbers
+
     static int Multiply(int a, int b)
     {
-        // Multiply a and b
         return a * b;
     }
 }

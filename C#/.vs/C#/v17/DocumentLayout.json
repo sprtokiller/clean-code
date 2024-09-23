@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:6\\6_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:6\\6_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:6\\6_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:6\\6_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:7\\7_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:7\\7_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:7\\7_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:5\\5_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:5\\5_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:7\\7_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:4\\4_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:4\\4_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:4\\4_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:4\\4_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:5\\5_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:5\\5_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "6_2.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_2.cs",
+              "RelativeDocumentMoniker": "6\\6_2.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_2.cs",
+              "RelativeToolTip": "6\\6_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:45:02.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "5_4.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_4.cs",
+              "RelativeDocumentMoniker": "5\\5_4.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_4.cs",
+              "RelativeToolTip": "5\\5_4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:42:03.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "4_4.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_4.cs",
+              "RelativeDocumentMoniker": "4\\4_4.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_4.cs",
+              "RelativeToolTip": "4\\4_4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:34:31.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "4_3.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_3.cs",
+              "RelativeDocumentMoniker": "4\\4_3.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_3.cs",
+              "RelativeToolTip": "4\\4_3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:34:28.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "4_2.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_2.cs",
+              "RelativeDocumentMoniker": "4\\4_2.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_2.cs",
+              "RelativeToolTip": "4\\4_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:34:24.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "4_1.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_1.cs",
+              "RelativeDocumentMoniker": "4\\4_1.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\4\\4_1.cs",
+              "RelativeToolTip": "4\\4_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:34:17.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "5_3.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_3.cs",
+              "RelativeDocumentMoniker": "5\\5_3.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_3.cs",
+              "RelativeToolTip": "5\\5_3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:30:53.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "5_2.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_2.cs",
+              "RelativeDocumentMoniker": "5\\5_2.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_2.cs",
+              "RelativeToolTip": "5\\5_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:28:53.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "5_1.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_1.cs",
+              "RelativeDocumentMoniker": "5\\5_1.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\5\\5_1.cs",
+              "RelativeToolTip": "5\\5_1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:28:37.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "6_1.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_1.cs",
+              "RelativeDocumentMoniker": "6\\6_1.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_1.cs",
+              "RelativeToolTip": "6\\6_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:22:04.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "7_4.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_4.cs",
+              "RelativeDocumentMoniker": "7\\7_4.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_4.cs",
+              "RelativeToolTip": "7\\7_4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:21:29.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "7_3.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_3.cs",
+              "RelativeDocumentMoniker": "7\\7_3.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_3.cs",
+              "RelativeToolTip": "7\\7_3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:20:55.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "7_2.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_2.cs",
+              "RelativeDocumentMoniker": "7\\7_2.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_2.cs",
+              "RelativeToolTip": "7\\7_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:20:44.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "7_1.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_1.cs",
+              "RelativeDocumentMoniker": "7\\7_1.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\7\\7_1.cs",
+              "RelativeToolTip": "7\\7_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:20:36.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "6_4.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_4.cs",
+              "RelativeDocumentMoniker": "6\\6_4.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_4.cs",
+              "RelativeToolTip": "6\\6_4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:18:53.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "6_3.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_3.cs",
+              "RelativeDocumentMoniker": "6\\6_3.cs",
+              "ToolTip": "C:\\Users\\janus\\Documents\\GitHub\\clean-code-Januske\\C#\\6\\6_3.cs",
+              "RelativeToolTip": "6\\6_3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:18:24.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

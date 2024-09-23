@@ -1,9 +1,9 @@
 double sum = 0;
-sum += values[0] * weights[0];
-sum += values[1] * weights[1];
-sum += values[2] * weights[2];
-sum += values[3] * weights[3];
-sum += values[4] * weights[4];
-sum += values[5] * weights[5];
+int num = 0;
+for (int i = 0; i < 6; i++)
+{
+    sum += values[num] * weights[num];
+    num++;
+}   
 
 Console.WriteLine("Weighted sum: " + sum);
