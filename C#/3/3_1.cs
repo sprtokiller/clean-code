@@ -1,8 +1,11 @@
-if (employee.YearsOfService > 10)
+var YOS = 10;
+string moreThan10 = "Eligible for long-term service award.";
+string lessThan10 = "Not eligible for award."
+if (employee.YearsOfService > YOS)
 {
-    Console.WriteLine("Eligible for long-term service award.");
+    Console.WriteLine(moreThan10);
 }
 else
 {
-    Console.WriteLine("Not eligible for award.");
+    Console.WriteLine(lessThan10);
 }

@@ -1,12 +1,14 @@
-Dictionary<string, int> inventory = new Dictionary<string, int>
+ Dictionary<string, int> inventory = new Dictionary<string, int>
 {
     { "Widget", 10 }
 };
 
-void UpdateInventory(string product, int quantity)
+int UpdateInventory(string product, int quantity)
 {
-    inventory[product] -= quantity;
-    Console.WriteLine(quantity + " units of " + product + " sold.");
+    product -= quantity;
+
+    return product - quantity;
 }
 
-UpdateInventory("Widget", 5);
+UpdateInventory(inventory["Widget"], 5);
+Console.WriteLine(quantity + " units of " + product + " sold.");

@@ -1,10 +1,13 @@
 int totalScore = 0;
 
-void AddScore(int points)
+void AddScore(int currentScore, int points)
 {
-    totalScore += points;
-    Console.WriteLine("Total score is now: " + totalScore);
+    currentScore += points;
+    
 }
 
-AddScore(10);
-AddScore(20);
+
+AddScore(totalScore,10);
+Console.WriteLine("Total score is now: " + totalScore);
+AddScore(totalScore,20);
+Console.WriteLine("Total score is now: " + totalScore);

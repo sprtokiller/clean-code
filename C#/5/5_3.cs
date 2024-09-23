@@ -4,25 +4,11 @@ void EvaluateCondition(int a)
     {
         if (a < 10)
         {
-            if (a % 2 == 0)
-            {
-                Console.WriteLine("a is positive, less than 10, and even.");
-            }
-            else
-            {
-                Console.WriteLine("a is positive, less than 10, and odd.");
-            }
+            mod2(a, "a is positive, less than 10, and even.", "a is positive, less than 10, and odd.");
         }
         else
         {
-            if (a % 2 == 0)
-            {
-                Console.WriteLine("a is positive, 10 or more, and even.");
-            }
-            else
-            {
-                Console.WriteLine("a is positive, 10 or more, and odd.");
-            }
+            mod2(a, "a is positive, 10 or more, and even.", "a is positive, 10 or more, and odd.");
         }
     }
     else if (a == 0)
@@ -32,5 +18,17 @@ void EvaluateCondition(int a)
     else
     {
         Console.WriteLine("a is negative.");
+    }
+}
+
+void mod2 (int value,string message1, string message2)
+{
+    if (value % 2 == 0)
+    {
+        Console.WriteLine(message1);
+    }
+    else
+    {
+        Console.WriteLine(message2);
     }
 }
