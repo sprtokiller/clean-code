@@ -1,4 +1,5 @@
-// Set the background color to green
+// Nastav pozadí stránky na zelenou barvu pro vizuální potvrzení
 document.body.style.backgroundColor = "green";
-// Display the success message
+
+// Zobraz úspěšnou zprávu uživateli
 document.getElementById("status").innerText = "Operation successful.";
