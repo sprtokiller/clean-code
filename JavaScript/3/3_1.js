@@ -1,3 +1,6 @@
+let employee = {
+  yearsOfService: 11
+};
 if (employee.yearsOfService > 10) {
   console.log("Eligible for long-term service award.");
 } else {

@@ -1,7 +1,13 @@
 let userSession = {
-  isLoggedIn: true,
-  token: "abc123"
+  isLoggedIn,
+  token
 };
+
+function login() {
+  userSession.isLoggedIn = true;
+  userSession.token = "abc123"
+  console.log("User logged in.");
+}
 
 function logout() {
   userSession.isLoggedIn = false;
@@ -9,4 +15,5 @@ function logout() {
   console.log("User logged out.");
 }
 
+login();
 logout();
