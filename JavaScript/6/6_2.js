@@ -16,3 +16,6 @@ if (grade >= 90) {
   console.log("Grade: F");
   updateRecords();
 }
+
+const grades = ["A","B","C"]
+const trasholts = [90,80,70]
