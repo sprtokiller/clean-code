@@ -1,5 +1,5 @@
 const MAX_RETRIES = 3;
-let attempt = 0;
+const ATTEMPT = 0;
 //Connected, because you used less than 3 tries
 while (attempt < MAX_RETRIES) {
     if (tryConnect()) {
