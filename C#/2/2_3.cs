@@ -1,8 +1,6 @@
-// Loop through the array of numbers
+// funkce, která bude iterovat polem, získa a vypíše číslo
 for (int i = 0; i < numbers.Length; i++)
 {
-    // Get the current number
     int num = numbers[i];
-    // Print the number
     Console.WriteLine("Number: " + num);
 }
