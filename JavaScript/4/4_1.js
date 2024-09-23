@@ -1,7 +1,7 @@
-let totalScore = 0;
+let Score = 0;
 
 function addScore(points) {
-    totalScore += points;
+    let totalScore = Score += points;
     console.log("Total score is now: " + totalScore);
 }
 

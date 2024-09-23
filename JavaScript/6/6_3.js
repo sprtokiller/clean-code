@@ -1,18 +1,18 @@
-function sendEmail(to, subject, body) {
-  let email = {};
-  email.to = to;
-  email.subject = subject;
-  email.body = body;
-  email.sentAt = new Date();
-  email.status = "sent";
+function createEmail(to, subject, body, customProperties = {}) {
+  let email = {
+    to: to,
+    subject: subject,
+    body: body,
+    sentAt: new Date(),
+    status: "sent",
+    ...customProperties 
+  };
   logEmail(email);
   return email;
 }
 
-let welcomeEmail = sendEmail("newuser@example.com", "Welcome!", "Thank you for joining.");
-welcomeEmail.isWelcomeEmail = true;
-logEmail(welcomeEmail);
 
-let passwordResetEmail = sendEmail("user@example.com", "Reset Password", "Click here to reset your password.");
-passwordResetEmail.isPasswordReset = true;
-logEmail(passwordResetEmail);
+let welcomeEmail = createEmail("newuser@example.com", "Welcome!", "Thank you for joining.", { isWelcomeEmail: true });
+
+
+let passwordResetEmail = createEmail("user@example.com", "Reset Password", "Click here to reset your password.", { isPasswordReset: true });
