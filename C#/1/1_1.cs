@@ -4,9 +4,10 @@ class Program
 {
     static void Main()
     {
-        double x = 3;
-        double y = 4;
-        double r = c(x, y);
+        int x = 3;
+        int y = 4;
+        int c = 5;
+        int r = c * (x + y);
         Console.WriteLine("Computed value: " + r);
     }
 

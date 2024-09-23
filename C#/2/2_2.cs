@@ -1,5 +1,5 @@
 if (user.Age > 18)
-// Podle věku, přístup povolí nebo zamítne
+// Podle věku, přístup povolí nebo nepovolí
 {
     GrantAccess();
 }
