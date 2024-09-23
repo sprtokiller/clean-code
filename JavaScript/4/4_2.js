@@ -4,8 +4,9 @@ let settings = {
 };
 
 function adjustBrightness(level) {
-  settings.brightness = level;
-  console.log("Brightness set to: " + settings.brightness);
+  let newBrightness = level;
+  settings.brightness = newBrightness;
+  console.log("Brightness set to: " + newBrightness);
 }
 
 adjustBrightness(80);

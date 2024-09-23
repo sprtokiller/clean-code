@@ -1,4 +1,4 @@
-// Set the background color to green
 document.body.style.backgroundColor = "green";
-// Display the success message
+
+// I changed the satus to "Operation successful" to let everyone know it went well
 document.getElementById("status").innerText = "Operation successful.";
