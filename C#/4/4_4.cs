@@ -3,10 +3,12 @@
     { "Widget", 10 }
 };
 
-void UpdateInventory(string product, int quantity)
+int UpdateInventory(string product, int quantity)
 {
     product -= quantity;
-    Console.WriteLine(quantity + " units of " + product + " sold.");
+
+    return product - quantity;
 }
 
 UpdateInventory(inventory["Widget"], 5);
+Console.WriteLine(quantity + " units of " + product + " sold.");
