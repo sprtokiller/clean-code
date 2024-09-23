@@ -1,4 +1,4 @@
-let maxRetries = 3;
+const maxRetries = 3;
 let attempt = 0;
 while (attempt < maxRetries) {
     if (tryConnect()) {
