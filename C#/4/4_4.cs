@@ -1,6 +1,6 @@
 Dictionary<string, int> inventory = new Dictionary<string, int>
 {
-    { "Widget", 5 }
+    { "Widget", 6 }
 };
 
 void UpdateInventory(string product, int quantity)
