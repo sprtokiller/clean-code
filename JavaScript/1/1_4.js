@@ -1,8 +1,8 @@
-function s(r) {
-  let a = 3.14 * r * r;
-  let c = 2 * 3.14 * r;
-  console.log("Area: " + a);
-  console.log("Circumference: " + c);
+function CalcCircle(radius) {
+  let Area = 3.14 * radius * radius;
+  let Circumference = 2 * 3.14 * radius;
+  console.log("Area: " + Area);
+  console.log("Circumference: " + Circumference);
 }
 
-s(5);
+CalcCircle(5);
