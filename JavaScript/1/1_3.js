@@ -1,13 +1,14 @@
-class P {
-  constructor(n, a) {
-      this.n = n;
-      this.a = a;
+//Class Person with name and age
+class Person {
+  constructor(name, age) {
+      this.name = name;
+      this.age = age;
   }
 
-  d() {
-      console.log(this.n + " is " + this.a + " years old.");
+  displayAge() {
+      console.log(`${this.name} is ${this.age} years old.`);
   }
 }
-
-let p = new P("Alice", 30);
-p.d();
+//Create a instace from the Person class
+const alice = new Person("Alice", 30);
+alice.displayAge();

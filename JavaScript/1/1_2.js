@@ -1,7 +1,8 @@
-let arr = [5, 10, 15, 20, 25];
-function p(a) {
-    for (let i = 0; i < a.length; i++) {
-        console.log("Value at index " + i + ": " + a[i]);
+//Function with the values of the array
+function logArrayValues(array) {
+    for (let index = 0; index < array.length; index++) {
+      console.log(`Value at index ${index}: ${array[index]}`);
     }
-}
-p(arr);
+  }
+  const numbers = [5, 10, 15, 20, 25];
+  logArrayValues(numbers);
