@@ -4,10 +4,12 @@ Dictionary<string, int> settings = new Dictionary<string, int>
     { "brightness", 50 }
 };
 
-void AdjustBrightness(int level)
+int AdjustBrightness(string name, int level)
 {
-    settings["brightness"] = level;
-    Console.WriteLine("Brightness set to: " + settings["brightness"]);
+    return name = level;
+    
 }
 
-AdjustBrightness(80);
+
+AdjustBrightness(settings["brightness"], 80);
+Console.WriteLine("Brightness set to: " + settings["brightness"]);
