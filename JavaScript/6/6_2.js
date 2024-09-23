@@ -1,12 +1,25 @@
 function getGrade(grade) {
-  if (grade >= 90) return "A";
-  else if (grade >= 80) return "B";
-  else if (grade >= 70) return "C";
-  else if (grade >= 60) return "D";
-  else return "F";
+  if (grade >= 90) {
+    console.log("Grade: A")
+    congratulateStudent()
+    updateRecords()
+  }
+  else if (grade >= 80) {
+    console.log("Grade: B")
+    congratulateStudent()
+    updateRecords()
+  }
+  else if (grade >= 70) {
+    console.log("Grade: C")
+    congratulateStudent()
+    updateRecords()
+  }
+  else if (grade >= 60) {
+    console.log("Grade: D")
+    updateRecords()
+  }
+  else {
+    console.log("Grade: F")
+    updateRecords()
+  }
 }
-
-let gradeLabel = getGrade(grade);
-console.log("Grade: " + gradeLabel);
-congratulateStudent();
-updateRecords();

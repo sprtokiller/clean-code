@@ -2,20 +2,21 @@ function evaluateCondition(a) {
   if (a > 0) {
     if (a < 10) {
       if (a % 2 === 0) {
-        console.log("a is positive, less than 10, and even.");
+        console.log("a is even.");
       } else {
-        console.log("a is positive, less than 10, and odd.");
+        console.log("a is odd.");
       }
+      console.log("a is less than 10.");
     } else {
       if (a % 2 === 0) {
-        console.log("a is positive, 10 or more, and even.");
+        console.log("a is even.");
       } else {
-        console.log("a is positive, 10 or more, and odd.");
+        console.log("a is odd.");
       }
+      console.log("a is 10 or more.");
     }
-  } else if (a === 0) {
-    console.log("a is zero.");
+    console.log("a is positive.");
   } else {
-    console.log("a is negative.");
+    console.log("a is negative or zero.");
   }
 }

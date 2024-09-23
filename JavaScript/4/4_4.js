@@ -1,6 +1,7 @@
 function updateInventory(product, quantity) {
-  inventory[product] -= quantity;
   console.log(quantity + " units of " + product + " sold.");
+  return inventory[product] = quantity
 }
 
-updateInventory("Widget", 5);
+const ProductName = "Widget"
+inventory[product] = updateInventory(ProductName, 5);
