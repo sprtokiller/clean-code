@@ -1,14 +1,15 @@
-let maxRetries = 3;
-let attempt = 0;
-while (attempt < maxRetries) {
+let MAX_RETRIES = 3;
+let ATTEMPT = 0;
+
+while (ATTEMPT < MAX_RETRIES) {
     if (tryConnect()) {
         console.log("Connected successfully.");
         break;
     } else {
         console.log("Retrying connection...");
-        attempt++;
+        ATTEMPT++;
     }
 }
-if (attempt === maxRetries) {
+if (ATTEMPT === MAX_RETRIES) {
     console.log("Failed to connect after 3 attempts.");
 }

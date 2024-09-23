@@ -1,4 +1,3 @@
-// This function multiplies two numbers because we need it later in the code
 function multiply(a, b) {
   return a * b;
 }
