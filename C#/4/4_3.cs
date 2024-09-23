@@ -6,11 +6,15 @@ class UserSession
 
 UserSession userSession = new UserSession();
 
-void Logout()
+UserSession Logout(UserSession currentSession)
 {
-    userSession.IsLoggedIn = false;
-    userSession.Token = null;
+    var newSession = new UserSession
+    {
+        IsLoggedIn = false,
+        Token = null
+    };
     Console.WriteLine("User logged out.");
+    return newSession;
 }
 
-Logout();
+userSession = Logout(userSession);
