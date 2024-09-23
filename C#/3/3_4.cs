@@ -1,5 +1,7 @@
-int maxRetries = 3;
+const maxRetries = 3; 
 int attempt = 0;
+
+// Controlling connection attempts, so users dont slow down our server
 while (attempt < maxRetries)
 {
     if (TryConnect())

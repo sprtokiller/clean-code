@@ -1,11 +1,11 @@
-// Check if the user is over 18
+// Checking age for sections accesses
 if (user.Age > 18)
 {
-    // User is over 18, grant access
+    // Access for all sections
     GrantAccess();
 }
 else
 {
-    // User is under 18, deny access
+    // Access for only kid section
     DenyAccess();
 }

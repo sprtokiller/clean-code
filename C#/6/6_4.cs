@@ -1,9 +1,16 @@
-double sum = 0;
-sum += values[0] * weights[0];
-sum += values[1] * weights[1];
-sum += values[2] * weights[2];
-sum += values[3] * weights[3];
-sum += values[4] * weights[4];
-sum += values[5] * weights[5];
+static void weight (string value, string weight)
+{
+    double sum = 0;
 
-Console.WriteLine("Weighted sum: " + sum);
+    for (int i = 0; i < value.Length; i++)
+    {
+        int addValue = value[i];
+        for (int j = 0; j < weight.Length; j++)
+        {
+            int addWeight = weight[j];
+            sum += addValue * addWeight;
+        }
+    }
+
+    Console.WriteLine("Weighted sum: " + sum);
+}

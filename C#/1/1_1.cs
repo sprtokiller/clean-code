@@ -6,14 +6,14 @@ class Program
     {
         double x = 3;
         double y = 4;
-        double r = c(x, y);
-        Console.WriteLine("Computed value: " + r);
+        double sqrtPoweronTwoResult = getSqrtOfPowerOn2(x, y);
+        Console.WriteLine("Computed value: " + sqrtPoweronTwoResult);
     }
 
-    static double c(double a, double b)
+    static double getSqrtOfPowerOn2(double a, double b)
     {
-        double d = Math.Sqrt(a * a + b * b);
-        Console.WriteLine("The result is: " + d);
-        return d;
+        double sqrtResult = Math.Sqrt(a * a + b * b);
+        Console.WriteLine("The result is: " + sqrtResult);
+        return sqrtResult;
     }
 }
