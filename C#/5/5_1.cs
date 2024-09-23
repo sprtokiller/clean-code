@@ -28,3 +28,4 @@ void AnalyzeData(List<int> data)
         Console.WriteLine("Data is empty or undefined.");
     }
 }
+

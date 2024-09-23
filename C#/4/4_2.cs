@@ -6,8 +6,8 @@ Dictionary<string, int> settings = new Dictionary<string, int>
 
 void AdjustBrightness(int level)
 {
-    settings["brightness"] = level;
-    Console.WriteLine("Brightness set to: " + settings["brightness"]);
+    int newSettings = level;
+    return newSettings;
 }
 
-AdjustBrightness(80);
+settings.brightness = AdjustBrightness(80)

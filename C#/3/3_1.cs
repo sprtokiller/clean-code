@@ -1,4 +1,4 @@
-if (employee.YearsOfService > 10)
+if (SERVED_YEARS > 10)
 {
     Console.WriteLine("Eligible for long-term service award.");
 }
