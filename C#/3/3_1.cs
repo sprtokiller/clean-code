@@ -1,4 +1,4 @@
-int employee.YearsOfService = 11;
+const int employee.YearsOfService = 11;
 
 if (employee.YearsOfService > 10)
 {
