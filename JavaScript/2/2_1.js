@@ -1,9 +1,9 @@
-// This function multiplies two numbers
+// Utilities or functions for multiplification and printing code to console
+
 function multiply(a, b) {
-  // Multiply a and b
   return a * b;
 }
 
-// Call the multiply function with 4 and 5
+
 let product = multiply(4, 5);
 console.log("Product is: " + product);

@@ -1,13 +1,18 @@
-console.log("Name: " + user.firstName + " " + user.lastName);
-console.log("Email: " + user.email);
-console.log("Role: " + user.role);
-
-console.log("Name: " + user.firstName + " " + user.lastName);
-console.log("Email: " + user.email);
-console.log("Role: " + user.role);
-
-if (user.isActive) {
+function displayUserInfo(user, status = null) {
     console.log("Name: " + user.firstName + " " + user.lastName);
     console.log("Email: " + user.email);
-    console.log("Status: Active");
-}
+    console.log("Role: " + user.role);
+    
+    if (status) {
+      console.log("Status: " + status);
+    }
+  }
+  
+
+  displayUserInfo(user);
+  displayUserInfo(user);
+  
+  if (user.isActive) {
+    displayUserInfo(user, "Active");
+  }
+  
