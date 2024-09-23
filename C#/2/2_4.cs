@@ -1,4 +1,3 @@
-// Set the background color to green
+// Status se zobrazí při změně barvy pozadí
 this.BackColor = Color.Green;
-// Display the success message
 statusLabel.Text = "Operation successful.";
