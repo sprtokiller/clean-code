@@ -1,7 +1,12 @@
-let arr = [5, 10, 15, 20, 25];
-function p(a) {
-    for (let i = 0; i < a.length; i++) {
-        console.log("Value at index " + i + ": " + a[i]);
+// Vypiš každý prvek pole s jeho odpovídajícím indexem.
+function vypisPrvkyPole(pole) {
+    for (let index = 0; index < pole.length; index++) {
+        console.log("Hodnota na indexu " + index + ": " + pole[index]);
     }
 }
-p(arr);
+
+// Definuj pole čísel, které se má vypsat.
+let poleCisel = [5, 10, 15, 20, 25];
+
+// Zavolej funkci pro vypsání prvků pole a jejich indexů.
+vypisPrvkyPole(poleCisel);

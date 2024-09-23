@@ -1,6 +1,8 @@
-let maxRetries = 3;
+// Definice konstanty pro maximální počet pokusů
+const MAX_RETRIES = 3;
+
 let attempt = 0;
-while (attempt < maxRetries) {
+while (attempt < MAX_RETRIES) {
     if (tryConnect()) {
         console.log("Connected successfully.");
         break;
@@ -9,6 +11,7 @@ while (attempt < maxRetries) {
         attempt++;
     }
 }
-if (attempt === maxRetries) {
-    console.log("Failed to connect after 3 attempts.");
+
+if (attempt === MAX_RETRIES) {
+    console.log("Failed to connect after " + MAX_RETRIES + " attempts.");
 }

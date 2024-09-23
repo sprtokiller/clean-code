@@ -1,8 +1,8 @@
-// Check if the user is over 18
+// Ověř uživatelův věk pro určení přístupových práv
 if (user.age > 18) {
-  // User is over 18, grant access
+  // Umožni přístup, protože uživatel je starší než 18
   grantAccess();
 } else {
-  // User is under 18, deny access
+  // Odepři přístup, protože uživatel je mladší než 18
   denyAccess();
 }

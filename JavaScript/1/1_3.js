@@ -1,13 +1,19 @@
-class P {
-  constructor(n, a) {
-      this.n = n;
-      this.a = a;
+// Třída Person představuje osobu s jménem a věkem.
+class Person {
+  // Inicializuj osobu se jménem a věkem.
+  constructor(name, age) {
+      this.name = name;
+      this.age = age;
   }
 
-  d() {
-      console.log(this.n + " is " + this.a + " years old.");
+  // Vypiš do konzole jméno osoby a její věk ve formátu: "{jméno} je {věk} let starý."
+  displayInfo() {
+      console.log(this.name + " je " + this.age + " let starý.");
   }
 }
 
-let p = new P("Alice", 30);
-p.d();
+// Vytvoř novou instanci osoby s jménem Alice a věkem 30 let.
+let person = new Person("Alice", 30);
+
+// Zavolej metodu, která vypíše informace o osobě.
+person.displayInfo();
