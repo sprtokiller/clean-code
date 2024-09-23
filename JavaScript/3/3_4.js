@@ -12,3 +12,4 @@ while (attempt < maxRetries) {
 if (attempt === maxRetries) {
     console.log("Failed to connect after 3 attempts.");
 }
+// neni potřeba nic :(

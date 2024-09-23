@@ -4,3 +4,4 @@ function updateInventory(product, quantity) {
 }
 
 updateInventory("Widget", 5);
+// idk
