@@ -1,4 +1,6 @@
-if (employee.YearsOfService > 10)
+int age = 10;
+
+if (employee.YearsOfService > age)
 {
     Console.WriteLine("Eligible for long-term service award.");
 }
