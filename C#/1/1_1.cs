@@ -4,16 +4,16 @@ class Program
 {
     static void Main()
     {
-        double x = 3;
-        double y = 4;
-        double r = c(x, y);
-        Console.WriteLine("Computed value: " + r);
+        double a = 3;
+        double b = 4;
+        double c = c(a, b);
+        Console.WriteLine("Computed value: " + c);
     }
 
-    static double c(double a, double b)
+    static double pythagorasSentence(double a, double b)
     {
-        double d = Math.Sqrt(a * a + b * b);
-        Console.WriteLine("The result is: " + d);
-        return d;
+        double c = Math.Sqrt(a * a + b * b);
+        Console.WriteLine("The result is: " + c);
+        return c;
     }
 }

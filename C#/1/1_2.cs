@@ -5,10 +5,10 @@ class Program
     static void Main()
     {
         int[] arr = { 5, 10, 15, 20, 25 };
-        p(arr);
+        printIndex(arr);
     }
 
-    static void p(int[] a)
+    static void printIndex(int[] arr)
     {
         for (int i = 0; i < a.Length; i++)
         {

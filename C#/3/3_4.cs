@@ -1,6 +1,6 @@
-int maxRetries = 3;
-int attempt = 0;
-while (attempt < maxRetries)
+int MAX_ATTEMPTS = 3;
+int ATTEMPT = 0;
+while (ATTEMPT < MAX_ATTEMPTS)
 {
     if (TryConnect())
     {
@@ -10,11 +10,11 @@ while (attempt < maxRetries)
     else
     {
         Console.WriteLine("Retrying connection...");
-        attempt++;
+        ATTEMPT++;
     }
 }
 
-if (attempt == maxRetries)
+if (ATTEMPT == MAX_ATTEMPTS)
 {
     Console.WriteLine("Failed to connect after 3 attempts.");
 }

@@ -1,6 +1,10 @@
-double finalPrice = basePrice * 0.95; // Apply 5% discount
+const double NON_MEMBER_DISCOUNT = 0.95; // 5% discount for non-members
+const double MEMBER_DISCOUNT = 0.90;    // 10% discount for members
+
+double finalPrice = basePrice * NON_MEMBER_DISCOUNT;
 if (isMember)
 {
-    finalPrice = basePrice * 0.90; // Members get 10% discount
+    finalPrice = basePrice * MEMBER_DISCOUNT;
 }
+
 Console.WriteLine("Final price: $" + finalPrice);

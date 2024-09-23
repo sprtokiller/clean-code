@@ -2,9 +2,9 @@ int totalScore = 0;
 
 void AddScore(int points)
 {
-    totalScore += points;
-    Console.WriteLine("Total score is now: " + totalScore);
+    int newScore = totalScore
+    newScore += points;
+    return newScore;
 }
-
-AddScore(10);
-AddScore(20);
+totalScore = AddScore(10);
+totalScore = AddScore(20);

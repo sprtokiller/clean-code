@@ -1,19 +1,19 @@
 using System;
 
-class P
+class Person
 {
-    private string n;
-    private int a;
+    private string name;
+    private int age;
 
-    public P(string n, int a)
+    public Person(string name, int age)
     {
-        this.n = n;
-        this.a = a;
+        this.name = name;
+        this.age = age;
     }
 
-    public void d()
+    public void displayInfo()
     {
-        Console.WriteLine(this.n + " is " + this.a + " years old.");
+        Console.WriteLine(this.name + " is " + this.age + " years old.");
     }
 }
 
@@ -21,7 +21,7 @@ class Program
 {
     static void Main()
     {
-        P p = new P("Alice", 30);
-        p.d();
+        Person person = new Person("Alice", 30);
+        Person.displayInfo();
     }
 }

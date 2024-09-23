@@ -5,8 +5,7 @@ Dictionary<string, int> inventory = new Dictionary<string, int>
 
 void UpdateInventory(string product, int quantity)
 {
-    inventory[product] -= quantity;
-    Console.WriteLine(quantity + " units of " + product + " sold.");
+    return inventory[product] -= quantity;
 }
 
-UpdateInventory("Widget", 5);
+inventory[product] = UpdateInventory("Widget", 5);
