@@ -1,27 +1,25 @@
-if (grade >= 90)
+static void grading (int grade)
 {
-    Console.WriteLine("Grade: A");
-    CongratulateStudent();
-    UpdateRecords();
-}
-else if (grade >= 80)
-{
-    Console.WriteLine("Grade: B");
-    CongratulateStudent();
-    UpdateRecords();
-}
-else if (grade >= 70)
-{
-    Console.WriteLine("Grade: C");
-    UpdateRecords();
-}
-else if (grade >= 60)
-{
-    Console.WriteLine("Grade: D");
-    UpdateRecords();
-}
-else
-{
-    Console.WriteLine("Grade: F");
+    switch (grade)
+    {
+        case grade >= 90:
+            Console.WriteLine("Grade: A");
+            break;
+        case grade >= 80:
+            Console.WriteLine("Grade: B");
+            break;
+        case grade >= 70:
+            Console.WriteLine("Grade: C");
+            break;
+        case grade >= 60:
+            Console.WriteLine("Grade: ");
+            break;
+    }
+
+    if (grade >= 80)
+    {
+        CongratulateStudent();
+    }
+
     UpdateRecords();
 }

@@ -1,4 +1,4 @@
-// Set the background color to green
-this.BackColor = Color.Green;
-// Display the success message
+// changing background color to symbolise success
+this.BackColor = Color.Green
+// Showing the text so a player knows if he won and better looks
 statusLabel.Text = "Operation successful.";

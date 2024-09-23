@@ -1,8 +1,6 @@
-// Loop through the array of numbers
+//looping trough user ID's for easier banning proccess
 for (int i = 0; i < numbers.Length; i++)
 {
-    // Get the current number
     int num = numbers[i];
-    // Print the number
     Console.WriteLine("Number: " + num);
 }
