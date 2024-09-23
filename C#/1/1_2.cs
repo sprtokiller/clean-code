@@ -2,6 +2,7 @@ using System;
 
 class Program
 {
+    // hodnotám v poli "arr" je přidělen index
     static void Main()
     {
         int[] arr = { 5, 10, 15, 20, 25 };
