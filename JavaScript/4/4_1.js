@@ -1,9 +1,9 @@
 let totalScore = 0;
 
-function addScore(points) {
-    totalScore += points;
-    console.log("Total score is now: " + totalScore);
+function addScore(currentScore, points) {
+    let newScore = currentScore + points;
+    console.log("Total score is now: " + newScore);
 }
 
-addScore(10);
-addScore(20);
+totalScore = addScore(totalScore,10);
+totalScore = addScore(totalScore,20);
