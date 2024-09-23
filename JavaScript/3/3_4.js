@@ -1,7 +1,7 @@
 const MAX_RETRIES = 3;
 const ATTEMPT = 0;
 //Connected, because you used less than 3 tries
-while (attempt < MAX_RETRIES) {
+while (ATTEMPT < MAX_RETRIES) {
     if (tryConnect()) {
         console.log("Connected successfully.");
         break;
@@ -11,6 +11,6 @@ while (attempt < MAX_RETRIES) {
     }
 }
 //Failed to connect, because you reach max attempts
-if (attempt === MAX_RETRIES) {
+if (ATTEMPT === MAX_RETRIES) {
     console.log("Failed to connect after 3 attempts.");
 }
