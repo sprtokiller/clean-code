@@ -1,18 +1,25 @@
-if (grade >= 90) {
-  console.log("Grade: A");
-  congratulateStudent();
-  updateRecords();
-} else if (grade >= 80) {
-  console.log("Grade: B");
-  congratulateStudent();
-  updateRecords();
-} else if (grade >= 70) {
-  console.log("Grade: C");
-  updateRecords();
-} else if (grade >= 60) {
-  console.log("Grade: D");
-  updateRecords();
-} else {
-  console.log("Grade: F");
-  updateRecords();
+// Function to handle grading and associated actions
+function handleGrade(grade) {
+  let letterGrade = "";
+
+  if (grade >= 90) {
+      letterGrade = "A";
+      congratulateStudent(); // Outstanding performance
+  } else if (grade >= 80) {
+      letterGrade = "B";
+      congratulateStudent(); // Good performance
+  } else if (grade >= 70) {
+      letterGrade = "C";
+  } else if (grade >= 60) {
+      letterGrade = "D";
+  } else {
+      letterGrade = "F";
+  }
+
+  console.log("Grade: " + letterGrade);
+  updateRecords(); // Always update records
 }
+
+// Example usage
+const grade = 85; // Example grade
+handleGrade(grade);

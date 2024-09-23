@@ -1,9 +1,10 @@
-// This function multiplies two numbers
-function multiply(a, b) {
-  // Multiply a and b
-  return a * b;
+// Vypočítej součin dvou čísel pro další zpracování
+function calculateProduct(firstNumber, secondNumber) {
+  return firstNumber * secondNumber;
 }
 
-// Call the multiply function with 4 and 5
-let product = multiply(4, 5);
-console.log("Product is: " + product);
+// Spočítej součin 4 a 5 pro výstup uživateli
+let result = calculateProduct(4, 5);
+
+// Vypiš výsledek uživateli
+console.log("Product is: " + result);

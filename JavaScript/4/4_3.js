@@ -1,12 +1,18 @@
+// Define initial user session
 let userSession = {
   isLoggedIn: true,
   token: "abc123"
 };
 
-function logout() {
-  userSession.isLoggedIn = false;
-  userSession.token = null;
+// Logout function that returns a new user session state
+function logout(currentSession) {
+  const newSession = {
+    isLoggedIn: false,
+    token: null
+  };
   console.log("User logged out.");
+  return newSession;
 }
 
-logout();
+// Update userSession with the new state after logout
+userSession = logout(userSession);

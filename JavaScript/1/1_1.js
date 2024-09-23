@@ -1,10 +1,10 @@
-function c(a, b) {
-  let d = Math.sqrt(a * a + b * b);
-  console.log("The result is: " + d);
-  return d;
+function calculateHypotenuse(sideA, sideB) {
+  let hypotenuse = Math.sqrt(sideA * sideA + sideB * sideB);
+  console.log("The hypotenuse is: " + hypotenuse);
+  return hypotenuse;
 }
 
-let x = 3;
-let y = 4;
-let r = c(x, y);
-console.log("Computed value: " + r);
+let triangleSideA = 3;
+let triangleSideB = 4;
+let hypotenuseLength = calculateHypotenuse(triangleSideA, triangleSideB);
+console.log("Computed hypotenuse length: " + hypotenuseLength);
