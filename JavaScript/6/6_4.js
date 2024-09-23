@@ -1,9 +1,6 @@
 let sum = 0;
-sum += values[0] * weights[0];
-sum += values[1] * weights[1];
-sum += values[2] * weights[2];
-sum += values[3] * weights[3];
-sum += values[4] * weights[4];
-sum += values[5] * weights[5];
+for (let i = 0; i < 6; i++) {
+    sum += values[i] * weights[i];
+}
 
 console.log("Weighted sum: " + sum);
