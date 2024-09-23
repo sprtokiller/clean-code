@@ -6,15 +6,14 @@ class Program
     {
         int x = 3;
         int y = 4;
-        int c = 5;
-        int r = c * (x + y);
+        int r = c(x, y);
         Console.WriteLine("Computed value: " + r);
     }
 
-    static double c(double a, double b)
+    static double priklad(double a, double b)
     {
-        double d = Math.Sqrt(a * a + b * b);
-        Console.WriteLine("The result is: " + d);
-        return d;
+        double vysledek = Math.Sqrt(a * a + b * b);
+        Console.WriteLine("The result is: " + vysledek);
+        return vysledek;
     }
 }
