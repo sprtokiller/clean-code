@@ -1,8 +1,8 @@
-// Check if the user is over 18
+// Check the user age
 if (user.age > 18) {
-  // User is over 18, grant access
+  // If over 18, access granted
   grantAccess();
 } else {
-  // User is under 18, deny access
+  // If under 18, access denied
   denyAccess();
 }
